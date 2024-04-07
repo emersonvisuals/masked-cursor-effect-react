@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "stretch";
+    src: url(../public/fonts/STRRETCH\ SANS.woff);
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "stretch";
+    text-transform: uppercase;
+    font-size: 6rem;
+    text-align: center;
+}

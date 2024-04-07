@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.mask {
+    position: absolute;
+    mask-image: url("../../../public/mask.svg");
+    background: #757de8;
+    mask-repeat: no-repeat;
+    mask-size: 50px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f5;
+}
+
+h1 {
+    cursor: default;
+}
+
+p {
+    font-size: 2rem;
+}
